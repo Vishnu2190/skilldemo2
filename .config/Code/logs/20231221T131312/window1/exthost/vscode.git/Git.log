@@ -1,0 +1,224 @@
+2023-12-21 13:13:18.880 [info] Log level: Info
+2023-12-21 13:13:18.880 [info] Validating found git in: "git"
+2023-12-21 13:13:18.880 [info] Using git "2.25.1" from "git"
+2023-12-21 13:32:54.066 [info] GitProtocolHandler.handleUri(vscode://vscode.git/clone?url%3Dhttps%3A%2F%2FDavidRobichaud%40dev.azure.com%2FDavidRobichaud%2FTailwindTraders%20%28TWT%29%2F_git%2FTailwindTraders%20%28TWT%29)
+2023-12-21 13:32:54.074 [info] Executing git.clone for https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders (TWT)/_git/TailwindTraders (TWT)
+2023-12-21 13:37:17.151 [info] > git clone https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT) /home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT) --progress [49080ms]
+2023-12-21 13:37:17.151 [info] Cloning into '/home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT)'...
+fatal: Authentication failed for 'https://dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT)/'
+2023-12-21 13:39:35.244 [info] GitProtocolHandler.handleUri(vscode://vscode.git/clone?url%3Dhttps%3A%2F%2FDavidRobichaud%40dev.azure.com%2FDavidRobichaud%2FTailwindTraders%20%28TWT%29%2F_git%2FTailwindTraders%20%28TWT%29)
+2023-12-21 13:39:35.250 [info] Executing git.clone for https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders (TWT)/_git/TailwindTraders (TWT)
+2023-12-21 13:40:18.189 [info] > git clone https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT) /home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT) --progress [10229ms]
+2023-12-21 13:40:18.189 [info] Cloning into '/home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT)'...
+remote: Azure Repos        
+remote: remote: Found 3228 objects to send. (122 ms)        
+Receiving objects:   0% (1/3228)Receiving objects:   1% (33/3228)Receiving objects:   2% (65/3228)Receiving objects:   3% (97/3228)Receiving objects:   4% (130/3228)Receiving objects:   5% (162/3228)Receiving objects:   6% (194/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:   7% (226/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:   8% (259/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:   9% (291/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:  10% (323/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:  11% (356/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:  12% (388/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:  13% (420/3228), 7.52 MiB | 15.03 MiB/sReceiving objects:  13% (434/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  14% (452/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  15% (485/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  16% (517/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  17% (549/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  18% (582/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  19% (614/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  20% (646/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  21% (678/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  22% (711/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  23% (743/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  24% (775/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  25% (807/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  26% (840/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  27% (872/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  28% (904/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  29% (937/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  30% (969/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  31% (1001/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  32% (1033/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  33% (1066/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  34% (1098/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  35% (1130/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  36% (1163/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  37% (1195/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  38% (1227/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  39% (1259/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  40% (1292/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  41% (1324/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  42% (1356/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  43% (1389/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  44% (1421/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  45% (1453/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  46% (1485/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  47% (1518/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  48% (1550/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  49% (1582/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  50% (1614/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  51% (1647/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  52% (1679/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  53% (1711/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  54% (1744/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  55% (1776/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  56% (1808/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  57% (1840/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  58% (1873/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  59% (1905/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  60% (1937/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  61% (1970/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  62% (2002/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  63% (2034/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  64% (2066/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  65% (2099/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  66% (2131/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  67% (2163/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  68% (2196/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  69% (2228/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  70% (2260/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  71% (2292/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  72% (2325/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  73% (2357/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  74% (2389/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  75% (2421/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  76% (2454/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  77% (2486/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  78% (2518/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  79% (2551/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  80% (2583/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  81% (2615/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  82% (2647/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  83% (2680/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  84% (2712/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  85% (2744/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  86% (2777/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  87% (2809/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  88% (2841/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  89% (2873/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  90% (2906/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  91% (2938/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  92% (2970/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  93% (3003/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  94% (3035/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  95% (3067/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  96% (3099/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  97% (3132/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  98% (3164/3228), 11.69 MiB | 9.04 MiB/sReceiving objects:  99% (3196/3228), 11.69 MiB | 9.04 MiB/sReceiving objects: 100% (3228/3228), 11.69 MiB | 9.04 MiB/sReceiving objects: 100% (3228/3228), 15.64 MiB | 10.76 MiB/s, done.
+Resolving deltas:   0% (0/1923)Resolving deltas:   1% (22/1923)Resolving deltas:   2% (52/1923)Resolving deltas:   3% (59/1923)Resolving deltas:   4% (79/1923)Resolving deltas:   5% (97/1923)Resolving deltas:   6% (118/1923)Resolving deltas:   7% (136/1923)Resolving deltas:   8% (154/1923)Resolving deltas:   9% (177/1923)Resolving deltas:  10% (193/1923)Resolving deltas:  11% (212/1923)Resolving deltas:  12% (235/1923)Resolving deltas:  13% (257/1923)Resolving deltas:  14% (270/1923)Resolving deltas:  15% (289/1923)Resolving deltas:  16% (313/1923)Resolving deltas:  17% (333/1923)Resolving deltas:  18% (348/1923)Resolving deltas:  19% (375/1923)Resolving deltas:  20% (394/1923)Resolving deltas:  21% (407/1923)Resolving deltas:  22% (432/1923)Resolving deltas:  23% (443/1923)Resolving deltas:  24% (473/1923)Resolving deltas:  25% (481/1923)Resolving deltas:  26% (519/1923)Resolving deltas:  27% (524/1923)Resolving deltas:  28% (540/1923)Resolving deltas:  29% (558/1923)Resolving deltas:  30% (581/1923)Resolving deltas:  31% (599/1923)Resolving deltas:  32% (621/1923)Resolving deltas:  33% (637/1923)Resolving deltas:  34% (655/1923)Resolving deltas:  35% (674/1923)Resolving deltas:  36% (699/1923)Resolving deltas:  38% (744/1923)Resolving deltas:  39% (766/1923)Resolving deltas:  40% (770/1923)Resolving deltas:  41% (790/1923)Resolving deltas:  42% (809/1923)Resolving deltas:  43% (829/1923)Resolving deltas:  44% (856/1923)Resolving deltas:  45% (878/1923)Resolving deltas:  46% (894/1923)Resolving deltas:  47% (906/1923)Resolving deltas:  48% (924/1923)Resolving deltas:  49% (948/1923)Resolving deltas:  50% (970/1923)Resolving deltas:  51% (982/1923)Resolving deltas:  52% (1003/1923)Resolving deltas:  59% (1148/1923)Resolving deltas:  60% (1162/1923)Resolving deltas:  61% (1174/1923)Resolving deltas:  62% (1193/1923)Resolving deltas:  64% (1247/1923)Resolving deltas:  65% (1264/1923)Resolving deltas:  73% (1406/1923)Resolving deltas:  75% (1459/1923)Resolving deltas:  76% (1468/1923)Resolving deltas:  78% (1505/1923)Resolving deltas:  79% (1534/1923)Resolving deltas:  80% (1543/1923)Resolving deltas:  81% (1561/1923)Resolving deltas:  82% (1578/1923)Resolving deltas:  83% (1605/1923)Resolving deltas:  84% (1628/1923)Resolving deltas:  87% (1682/1923)Resolving deltas:  88% (1703/1923)Resolving deltas:  89% (1717/1923)Resolving deltas:  90% (1732/1923)Resolving deltas:  91% (1751/1923)Resolving deltas:  92% (1770/1923)Resolving deltas:  93% (1791/1923)Resolving deltas:  94% (1808/1923)Resolving deltas:  95% (1841/1923)Resolving deltas:  96% (1857/1923)Resolving deltas:  97% (1866/1923)Resolving deltas:  98% (1894/1923)Resolving deltas:  99% (1905/1923)Resolving deltas: 100% (1923/1923)Resolving deltas: 100% (1923/1923), done.
+2023-12-21 13:42:09.969 [info] Log level: Info
+2023-12-21 13:42:09.969 [info] Validating found git in: "git"
+2023-12-21 13:42:09.969 [info] Using git "2.25.1" from "git"
+2023-12-21 13:42:10.010 [info] > git rev-parse --show-toplevel [42ms]
+2023-12-21 13:42:10.042 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-12-21 13:42:10.071 [info] Open repository: /home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT)
+2023-12-21 13:42:10.110 [info] > git config --get commit.template [20ms]
+2023-12-21 13:42:10.115 [info] > git rev-parse --show-toplevel [9ms]
+2023-12-21 13:42:10.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/create-cicd-action refs/remotes/create-cicd-action [12ms]
+2023-12-21 13:42:10.145 [warning] ENOENT: no such file or directory, open '/home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT)/.git/refs/remotes/origin/create-cicd-action'
+2023-12-21 13:42:10.146 [info] > git rev-parse --show-toplevel [11ms]
+2023-12-21 13:42:10.158 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-21 13:42:10.159 [info] > git rev-parse refs/remotes/origin/create-cicd-action [14ms]
+2023-12-21 13:42:10.184 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-21 13:42:10.198 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-21 13:42:10.272 [info] > git status -z -uall [103ms]
+2023-12-21 13:42:10.308 [info] > git config --get commit.template [7ms]
+2023-12-21 13:42:10.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/create-cicd-action refs/remotes/create-cicd-action [3ms]
+2023-12-21 13:42:10.328 [warning] ENOENT: no such file or directory, open '/home/ubuntu-user/Documents/Lab04/TailwindTraders (TWT)/.git/refs/remotes/origin/create-cicd-action'
+2023-12-21 13:42:10.331 [info] > git rev-parse refs/remotes/origin/create-cicd-action [3ms]
+2023-12-21 13:42:10.416 [info] > git status -z -uall [78ms]
+2023-12-21 13:42:10.586 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-21 13:46:11.465 [info] GitProtocolHandler.handleUri(vscode://vscode.git/clone?url%3Dhttps%3A%2F%2FDavidRobichaud%40dev.azure.com%2FDavidRobichaud%2FTailwindTraders%20%28TWT%29%2F_git%2FTailwindTraders%20%28TWT%29)
+2023-12-21 13:46:11.483 [info] Executing git.clone for https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders (TWT)/_git/TailwindTraders (TWT)
+2023-12-21 13:51:18.594 [info] > git clone https://DavidRobichaud@dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT) /home/ubuntu-user/repos/TWT/TailwindTraders (TWT) --progress [121232ms]
+2023-12-21 13:51:18.594 [info] Cloning into '/home/ubuntu-user/repos/TWT/TailwindTraders (TWT)'...
+remote: Azure Repos        
+remote: remote: Found 3228 objects to send. (120 ms)        
+Receiving objects:   0% (1/3228)Receiving objects:   1% (33/3228)Receiving objects:   2% (65/3228)Receiving objects:   3% (97/3228)Receiving objects:   4% (130/3228)Receiving objects:   5% (162/3228)Receiving objects:   6% (194/3228)Receiving objects:   7% (226/3228)Receiving objects:   8% (259/3228)Receiving objects:   9% (291/3228)Receiving objects:  10% (323/3228)Receiving objects:  11% (356/3228)Receiving objects:  12% (388/3228)Receiving objects:  13% (420/3228)Receiving objects:  13% (434/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  14% (452/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  15% (485/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  16% (517/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  17% (549/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  18% (582/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  19% (614/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  20% (646/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  21% (678/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  22% (711/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  23% (743/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  24% (775/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  25% (807/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  26% (840/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  27% (872/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  28% (904/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  29% (937/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  30% (969/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  31% (1001/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  32% (1033/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  33% (1066/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  34% (1098/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  35% (1130/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  36% (1163/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  37% (1195/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  38% (1227/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  39% (1259/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  40% (1292/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  41% (1324/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  42% (1356/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  43% (1389/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  44% (1421/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  45% (1453/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  46% (1485/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  47% (1518/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  48% (1550/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  49% (1582/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  50% (1614/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  51% (1647/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  52% (1679/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  53% (1711/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  54% (1744/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  55% (1776/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  56% (1808/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  57% (1840/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  58% (1873/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  59% (1905/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  60% (1937/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  61% (1970/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  62% (2002/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  63% (2034/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  64% (2066/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  65% (2099/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  66% (2131/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  67% (2163/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  68% (2196/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  69% (2228/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  70% (2260/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  71% (2292/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  72% (2325/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  73% (2357/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  74% (2389/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  75% (2421/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  76% (2454/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  77% (2486/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  78% (2518/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  79% (2551/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  80% (2583/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  81% (2615/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  82% (2647/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  83% (2680/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  84% (2712/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  85% (2744/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  86% (2777/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  87% (2809/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  88% (2841/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  89% (2873/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  90% (2906/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  91% (2938/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  92% (2970/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  93% (3003/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  94% (3035/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  95% (3067/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  96% (3099/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  97% (3132/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  98% (3164/3228), 11.63 MiB | 9.45 MiB/sReceiving objects:  99% (3196/3228), 11.63 MiB | 9.45 MiB/sReceiving objects: 100% (3228/3228), 11.63 MiB | 9.45 MiB/sReceiving objects: 100% (3228/3228), 15.64 MiB | 10.89 MiB/s, done.
+Resolving deltas:   0% (0/1923)Resolving deltas:   1% (24/1923)Resolving deltas:   2% (45/1923)Resolving deltas:   3% (59/1923)Resolving deltas:   4% (79/1923)Resolving deltas:   5% (97/1923)Resolving deltas:   6% (118/1923)Resolving deltas:   7% (136/1923)Resolving deltas:   8% (154/1923)Resolving deltas:   9% (177/1923)Resolving deltas:  10% (194/1923)Resolving deltas:  11% (213/1923)Resolving deltas:  12% (236/1923)Resolving deltas:  13% (258/1923)Resolving deltas:  14% (270/1923)Resolving deltas:  15% (290/1923)Resolving deltas:  16% (315/1923)Resolving deltas:  17% (335/1923)Resolving deltas:  18% (351/1923)Resolving deltas:  19% (367/1923)Resolving deltas:  20% (401/1923)Resolving deltas:  21% (407/1923)Resolving deltas:  22% (427/1923)Resolving deltas:  23% (448/1923)Resolving deltas:  25% (481/1923)Resolving deltas:  27% (528/1923)Resolving deltas:  28% (550/1923)Resolving deltas:  29% (568/1923)Resolving deltas:  30% (580/1923)Resolving deltas:  31% (611/1923)Resolving deltas:  32% (623/1923)Resolving deltas:  33% (645/1923)Resolving deltas:  34% (654/1923)Resolving deltas:  35% (679/1923)Resolving deltas:  36% (693/1923)Resolving deltas:  37% (714/1923)Resolving deltas:  39% (759/1923)Resolving deltas:  40% (781/1923)Resolving deltas:  41% (793/1923)Resolving deltas:  42% (809/1923)Resolving deltas:  43% (840/1923)Resolving deltas:  44% (847/1923)Resolving deltas:  45% (871/1923)Resolving deltas:  46% (893/1923)Resolving deltas:  47% (909/1923)Resolving deltas:  48% (931/1923)Resolving deltas:  49% (949/1923)Resolving deltas:  50% (963/1923)Resolving deltas:  51% (986/1923)Resolving deltas:  52% (1011/1923)Resolving deltas:  53% (1022/1923)Resolving deltas:  60% (1164/1923)Resolving deltas:  61% (1178/1923)Resolving deltas:  62% (1195/1923)Resolving deltas:  63% (1219/1923)Resolving deltas:  65% (1263/1923)Resolving deltas:  66% (1280/1923)Resolving deltas:  73% (1422/1923)Resolving deltas:  74% (1429/1923)Resolving deltas:  76% (1474/1923)Resolving deltas:  77% (1483/1923)Resolving deltas:  79% (1520/1923)Resolving deltas:  80% (1549/1923)Resolving deltas:  81% (1558/1923)Resolving deltas:  82% (1579/1923)Resolving deltas:  83% (1600/1923)Resolving deltas:  84% (1620/1923)Resolving deltas:  85% (1643/1923)Resolving deltas:  88% (1697/1923)Resolving deltas:  89% (1718/1923)Resolving deltas:  90% (1732/1923)Resolving deltas:  91% (1758/1923)Resolving deltas:  92% (1785/1923)Resolving deltas:  93% (1789/1923)Resolving deltas:  94% (1823/1923)Resolving deltas:  96% (1856/1923)Resolving deltas:  97% (1872/1923)Resolving deltas:  98% (1885/1923)Resolving deltas:  99% (1909/1923)Resolving deltas: 100% (1923/1923)Resolving deltas: 100% (1923/1923), done.
+2023-12-21 13:51:39.361 [info] Log level: Info
+2023-12-21 13:51:39.361 [info] Validating found git in: "git"
+2023-12-21 13:51:39.361 [info] Using git "2.25.1" from "git"
+2023-12-21 13:51:39.372 [info] > git rev-parse --show-toplevel [12ms]
+2023-12-21 13:51:39.401 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2023-12-21 13:51:39.428 [info] Open repository: /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)
+2023-12-21 13:51:39.477 [info] > git config --get commit.template [14ms]
+2023-12-21 13:51:39.479 [info] > git rev-parse --show-toplevel [8ms]
+2023-12-21 13:51:39.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/create-cicd-action refs/remotes/create-cicd-action [11ms]
+2023-12-21 13:51:39.511 [warning] ENOENT: no such file or directory, open '/home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/refs/remotes/origin/create-cicd-action'
+2023-12-21 13:51:39.512 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-21 13:51:39.526 [info] > git rev-parse refs/remotes/origin/create-cicd-action [15ms]
+2023-12-21 13:51:39.539 [info] > git rev-parse --show-toplevel [13ms]
+2023-12-21 13:51:39.582 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-21 13:51:39.603 [info] > git rev-parse --show-toplevel [12ms]
+2023-12-21 13:51:39.629 [info] > git status -z -uall [93ms]
+2023-12-21 13:51:39.664 [info] > git config --get commit.template [6ms]
+2023-12-21 13:51:39.676 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/create-cicd-action refs/remotes/create-cicd-action [4ms]
+2023-12-21 13:51:39.684 [warning] ENOENT: no such file or directory, open '/home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/refs/remotes/origin/create-cicd-action'
+2023-12-21 13:51:39.689 [info] > git rev-parse refs/remotes/origin/create-cicd-action [5ms]
+2023-12-21 13:51:39.775 [info] > git status -z -uall [77ms]
+2023-12-21 13:51:39.950 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-21 13:54:45.620 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2023-12-21 13:55:21.883 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2023-12-21 13:56:59.713 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2023-12-21 13:57:43.686 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2023-12-21 13:58:12.243 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2023-12-21 13:58:27.716 [info] > git checkout -q -b testbranch2 --no-track HEAD [75ms]
+2023-12-21 13:58:27.731 [info] > git config --get commit.template [4ms]
+2023-12-21 13:58:27.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 13:58:27.762 [info] > git status -z -uall [10ms]
+2023-12-21 13:58:28.866 [info] > git config --get commit.template [10ms]
+2023-12-21 13:58:28.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 13:58:28.885 [info] > git status -z -uall [9ms]
+2023-12-21 13:59:29.043 [info] > git show --textconv :README.md [27ms]
+2023-12-21 13:59:29.050 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [14ms]
+2023-12-21 13:59:29.074 [info] > git cat-file -s 29babc8a9ce25d724a5849aea61dc331fedf4f61 [4ms]
+2023-12-21 14:00:23.307 [info] > git config --get commit.template [3ms]
+2023-12-21 14:00:23.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [2ms]
+2023-12-21 14:00:23.339 [info] > git status -z -uall [10ms]
+2023-12-21 14:01:30.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 [6ms]
+2023-12-21 14:01:30.760 [info] > git config --local branch.testbranch2.vscode-merge-base [5ms]
+2023-12-21 14:01:30.790 [info] > git reflog refs/heads/testbranch2 --grep-reflog=branch: Created from *. [9ms]
+2023-12-21 14:01:30.801 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to testbranch2 [3ms]
+2023-12-21 14:01:30.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/create-cicd-action refs/remotes/create-cicd-action [4ms]
+2023-12-21 14:01:30.828 [info] > git config --local branch.testbranch2.vscode-merge-base create-cicd-action [3ms]
+2023-12-21 14:01:30.849 [info] > git config --get commit.template [10ms]
+2023-12-21 14:01:30.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [4ms]
+2023-12-21 14:01:30.870 [info] > git status -z -uall [11ms]
+2023-12-21 14:01:30.890 [info] > git merge-base refs/heads/testbranch2 refs/heads/create-cicd-action [3ms]
+2023-12-21 14:01:30.905 [info] > git rev-list --count --left-right refs/heads/testbranch2...refs/heads/create-cicd-action [5ms]
+2023-12-21 14:01:31.928 [info] > git config --get commit.template [11ms]
+2023-12-21 14:01:31.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 14:01:31.953 [info] > git status -z -uall [10ms]
+2023-12-21 14:01:32.021 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-21 14:01:32.035 [info] > git cat-file -s 29babc8a9ce25d724a5849aea61dc331fedf4f61 [1ms]
+2023-12-21 14:01:32.055 [info] > git show --textconv :README.md [4ms]
+2023-12-21 14:04:49.720 [info] > git add -A -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [5ms]
+2023-12-21 14:04:49.745 [info] > git config --get commit.template [9ms]
+2023-12-21 14:04:49.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 14:04:49.766 [info] > git status -z -uall [10ms]
+2023-12-21 14:04:50.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [1ms]
+2023-12-21 14:04:50.822 [info] > git config --get commit.template [13ms]
+2023-12-21 14:04:50.840 [info] > git status -z -uall [10ms]
+2023-12-21 14:04:50.945 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [22ms]
+2023-12-21 14:04:50.988 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [23ms]
+2023-12-21 14:04:51.062 [info] > git show --textconv :README.md [30ms]
+2023-12-21 14:06:01.861 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2023-12-21 14:06:55.784 [info] > git push -u origin testbranch2 [46465ms]
+2023-12-21 14:06:55.784 [info] To https://dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT)
+ * [new branch]      testbranch2 -> testbranch2
+2023-12-21 14:06:55.805 [info] > git config --get commit.template [9ms]
+2023-12-21 14:06:55.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [4ms]
+2023-12-21 14:06:55.827 [info] > git status -z -uall [10ms]
+2023-12-21 14:06:55.877 [info] > git merge-base refs/heads/testbranch2 refs/remotes/origin/testbranch2 [5ms]
+2023-12-21 14:06:55.891 [info] > git rev-list --count --left-right refs/heads/testbranch2...refs/remotes/origin/testbranch2 [4ms]
+2023-12-21 14:06:56.918 [info] > git config --get commit.template [10ms]
+2023-12-21 14:06:56.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 14:06:56.940 [info] > git status -z -uall [11ms]
+2023-12-21 14:06:57.021 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [7ms]
+2023-12-21 14:06:57.057 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [7ms]
+2023-12-21 14:06:57.071 [info] > git show --textconv :README.md [3ms]
+2023-12-21 14:10:06.589 [info] > git show --textconv :.git/COMMIT_EDITMSG [11ms]
+2023-12-21 14:10:06.591 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [4ms]
+2023-12-21 14:10:06.918 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-21 14:10:51.563 [info] > git -c user.useConfigOnly=true commit --quiet [45517ms]
+2023-12-21 14:10:51.614 [info] > git config --get commit.template [35ms]
+2023-12-21 14:10:51.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [9ms]
+2023-12-21 14:10:51.656 [info] > git status -z -uall [12ms]
+2023-12-21 14:10:51.792 [info] > git config --get commit.template [17ms]
+2023-12-21 14:10:51.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [10ms]
+2023-12-21 14:10:51.825 [info] > git status -z -uall [14ms]
+2023-12-21 14:10:52.058 [info] > git show --textconv :README.md [11ms]
+2023-12-21 14:10:52.061 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-21 14:10:52.071 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [2ms]
+2023-12-21 14:11:16.839 [info] > git log --oneline --cherry testbranch2...testbranch2@{upstream} -- [8ms]
+2023-12-21 14:11:16.947 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [25ms]
+2023-12-21 14:11:16.997 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [16ms]
+2023-12-21 14:11:17.030 [info] > git show --textconv :README.md [10ms]
+2023-12-21 14:11:18.110 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [2ms]
+2023-12-21 14:11:18.120 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [2ms]
+2023-12-21 14:11:18.135 [info] > git show --textconv :README.md [3ms]
+2023-12-21 14:11:19.831 [info] > git merge-base refs/heads/testbranch2 refs/remotes/origin/testbranch2 [5ms]
+2023-12-21 14:11:19.848 [info] > git rev-list --count --left-right refs/heads/testbranch2...refs/remotes/origin/testbranch2 [5ms]
+2023-12-21 14:11:59.246 [info] > git pull --tags origin testbranch2 [42361ms]
+2023-12-21 14:11:59.246 [info] From https://dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT)
+ * branch            testbranch2 -> FETCH_HEAD
+2023-12-21 14:12:00.422 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-21 14:12:00.433 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [3ms]
+2023-12-21 14:12:00.447 [info] > git show --textconv :README.md [3ms]
+2023-12-21 14:12:10.850 [info] > git push origin testbranch2:testbranch2 [11595ms]
+2023-12-21 14:12:10.850 [info] To https://dev.azure.com/DavidRobichaud/TailwindTraders%20(TWT)/_git/TailwindTraders%20(TWT)
+   93b67ce..db4618c  testbranch2 -> testbranch2
+2023-12-21 14:12:10.871 [info] > git config --get commit.template [11ms]
+2023-12-21 14:12:10.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-21 14:12:10.892 [info] > git status -z -uall [10ms]
+2023-12-21 14:12:10.954 [info] > git merge-base refs/heads/testbranch2 refs/remotes/origin/testbranch2 [4ms]
+2023-12-21 14:12:10.968 [info] > git rev-list --count --left-right refs/heads/testbranch2...refs/remotes/origin/testbranch2 [4ms]
+2023-12-21 14:12:12.046 [info] > git config --get commit.template [11ms]
+2023-12-21 14:12:12.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [2ms]
+2023-12-21 14:12:12.065 [info] > git status -z -uall [10ms]
+2023-12-21 14:12:12.135 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [2ms]
+2023-12-21 14:12:12.146 [info] > git cat-file -s f8a09b8c01cb7fd5195c93b4a1fe70183d8d911c [3ms]
+2023-12-21 14:12:12.159 [info] > git show --textconv :README.md [3ms]
+2023-12-22 08:06:06.530 [info] > git config --get commit.template [10ms]
+2023-12-22 08:06:06.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-22 08:06:06.551 [info] > git status -z -uall [11ms]
+2023-12-22 08:07:01.009 [info] > git add -A -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [5ms]
+2023-12-22 08:07:01.028 [info] > git config --get commit.template [9ms]
+2023-12-22 08:07:01.030 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [3ms]
+2023-12-22 08:07:01.048 [info] > git status -z -uall [9ms]
+2023-12-22 08:07:02.106 [info] > git config --get commit.template [10ms]
+2023-12-22 08:07:02.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [2ms]
+2023-12-22 08:07:02.126 [info] > git status -z -uall [9ms]
+2023-12-22 08:07:02.196 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-22 08:07:02.207 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [2ms]
+2023-12-22 08:07:02.220 [info] > git show --textconv :README.md [3ms]
+2023-12-22 08:13:00.489 [info] > git show --textconv :.git/COMMIT_EDITMSG [11ms]
+2023-12-22 08:13:00.491 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [2ms]
+2023-12-22 08:13:01.172 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [3ms]
+2023-12-22 08:13:01.185 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2023-12-22 08:15:01.006 [info] > git show --textconv :README.md [16ms]
+2023-12-22 08:15:01.007 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-22 08:15:01.019 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [3ms]
+2023-12-22 08:15:03.500 [info] > git show --textconv :.git/COMMIT_EDITMSG [15ms]
+2023-12-22 08:15:03.507 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [8ms]
+2023-12-22 08:16:26.475 [info] > git show --textconv :README.md [16ms]
+2023-12-22 08:16:26.480 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [6ms]
+2023-12-22 08:16:26.492 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [3ms]
+2023-12-22 08:16:27.818 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2023-12-22 08:16:27.820 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [3ms]
+2023-12-22 08:16:47.241 [info] > git -c user.useConfigOnly=true commit --quiet [227264ms]
+2023-12-22 08:16:47.241 [info] Aborting commit due to empty commit message.
+2023-12-22 08:16:47.298 [info] > git config --get commit.template [18ms]
+2023-12-22 08:16:47.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [6ms]
+2023-12-22 08:16:47.338 [info] > git status -z -uall [17ms]
+2023-12-22 08:16:47.664 [info] > git show --textconv :README.md [50ms]
+2023-12-22 08:16:47.669 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [6ms]
+2023-12-22 08:16:47.694 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [13ms]
+2023-12-22 08:16:56.901 [info] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+2023-12-22 08:16:56.903 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [3ms]
+2023-12-22 08:17:11.775 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/.git/COMMIT_EDITMSG [32ms]
+2023-12-22 08:17:11.813 [info] > git -c user.useConfigOnly=true commit --quiet [15543ms]
+2023-12-22 08:17:11.859 [info] > git config --get commit.template [28ms]
+2023-12-22 08:17:11.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [5ms]
+2023-12-22 08:17:11.940 [info] > git status -z -uall [51ms]
+2023-12-22 08:17:11.999 [info] > git show --textconv :.git/COMMIT_EDITMSG [9ms]
+2023-12-22 08:17:12.137 [info] > git config --get commit.template [24ms]
+2023-12-22 08:17:12.208 [info] > git merge-base refs/heads/testbranch2 refs/remotes/origin/testbranch2 [73ms]
+2023-12-22 08:17:12.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/testbranch2 refs/remotes/testbranch2 [25ms]
+2023-12-22 08:17:12.246 [info] > git rev-list --count --left-right refs/heads/testbranch2...refs/remotes/origin/testbranch2 [19ms]
+2023-12-22 08:17:12.263 [info] > git status -z -uall [18ms]
+2023-12-22 08:17:12.493 [info] > git show --textconv :README.md [10ms]
+2023-12-22 08:17:12.496 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [3ms]
+2023-12-22 08:17:12.508 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [3ms]
+2023-12-22 08:17:13.050 [info] > git ls-files --stage -- /home/ubuntu-user/repos/TWT/TailwindTraders (TWT)/README.md [1ms]
+2023-12-22 08:17:13.060 [info] > git cat-file -s 260c0a6d1adedca9014f980a4ef92db498d9c90c [3ms]
+2023-12-22 08:17:13.074 [info] > git show --textconv :README.md [4ms]

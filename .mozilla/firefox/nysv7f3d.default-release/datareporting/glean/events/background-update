@@ -1,0 +1,7 @@
+{"timestamp":2851504,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","experiment":"device-migration-q4-spotlights-remaining-population","glean_timestamp":"1720699130608","branch":"treatment"}}
+{"timestamp":2851511,"category":"nimbus_events","name":"enrollment","extra":{"branch":"enable-address-autofill","experiment_type":"rollout","glean_timestamp":"1720699130615","experiment":"address-autofill-desktop-pref-release-rollout"}}
+{"timestamp":2851523,"category":"nimbus_events","name":"enrollment","extra":{"glean_timestamp":"1720699130627","experiment_type":"rollout","branch":"rollout","experiment":"phc-rollout"}}
+{"timestamp":2851549,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"highlighting-in-pdfs-rollout","branch":"treatment","glean_timestamp":"1720699130654","experiment_type":"rollout"}}
+{"timestamp":2851561,"category":"nimbus_events","name":"enrollment","extra":{"glean_timestamp":"1720699130665","experiment_type":"rollout","experiment":"serp-categorization-and-consolidated-search-config-us-desktop-relaunch","branch":"control"}}
+{"timestamp":2851614,"category":"nimbus_events","name":"enrollment","extra":{"glean_timestamp":"1720699130718","branch":"treatment-a","experiment_type":"rollout","experiment":"us-review-checker-rollout-v2"}}
+{"timestamp":2851625,"category":"nimbus_events","name":"enrollment","extra":{"branch":"delivery","experiment":"long-term-holdback-2024-h2-velocity-desktop","experiment_type":"nimbus","glean_timestamp":"1720699130730"}}
